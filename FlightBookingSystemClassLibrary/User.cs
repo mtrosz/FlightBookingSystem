@@ -23,12 +23,13 @@ namespace FlightBookingSystemClassLibrary
         {
             get
             {
-                string unautorized = "Unautorized"
+                string unautorized = "Unautorized";
                 return unautorized;
             }
             set
             {
-                password = value.;
+                foreach (char c in value)
+                password.AppendChar(c);
             }
         }
         public bool IsAdmin { get; set; }
