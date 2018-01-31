@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 
 namespace FlightBookingSystemClassLibrary
 {
-    class Airplane
+    class City
     {
-        public int AirplaneID { get; set; }
-        public string Producer { get; set; }
-        public string Model { get; set; }
-        public int MaxCapacity { get; set; }
-        public float CruiseSpeed { get; set; }
-
+        public int CityID { get; set; }
+        public string CityName { get; set; }
+        public string Country { get; set; }
+        public string Continent { get; set; }
 
         public void ShowData()
         {
@@ -25,19 +23,18 @@ namespace FlightBookingSystemClassLibrary
                 connect.Open();
                 Console.WriteLine("Connected...");
 
-                SqlCommand command = new SqlCommand("SELECT * FROM AIRPLANES", connect);
+                SqlCommand command = new SqlCommand("SELECT * FROM CITIES", connect);
                 Console.WriteLine("Command executed...");
 
                 SqlDataReader dataread = command.ExecuteReader();
 
                 while (dataread.Read())
                 {
-                    Console.WriteLine(String.Format("{0} \t | {1} \t | {2} \t | {3} \t | {4}", dataread[0], dataread[1], dataread[2], dataread[3], dataread[4]));
+                    Console.WriteLine(String.Format("{0} \t | {1} \t | {2} \t | {3}", dataread[0], dataread[1], dataread[2], dataread[3]));
                 }
 
                 Console.WriteLine("Finished reading...");
             }
         }
-
     }
 }
