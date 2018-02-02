@@ -28,18 +28,15 @@ namespace FlightBookingSystemClassLibrary
             }
             set
             {
-                try
-                {
                     if (CheckPasswordStrenght(value).Equals("Strong") || CheckPasswordStrenght(value).Equals("VeryStrong"))
                     {
                         foreach (char c in value)
                             password.AppendChar(c);
                     }
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("Password is too weak...");
-                }
+                //catch (Exception)
+                //{
+                //    MessageBox.Show("Password is too weak...");
+                //}
             }
         }
         public bool IsAdmin { get; set; }
