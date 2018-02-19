@@ -43,8 +43,11 @@
   <ItemGroup>
     <Compile Include="Airplane.cs" />
     <Compile Include="Airport.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="Payment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reservation.cs" />
+    <Compile Include="Ticket.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

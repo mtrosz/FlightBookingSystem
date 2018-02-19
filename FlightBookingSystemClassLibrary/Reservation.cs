@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace FlightBookingSystemClassLibrary
 {
-    class Reservation
+    public class Reservation
     {
+        public string UserName { get; set; }
         public int ReservationID { get; set; }
         public DateTime ReservationDate { get; set; }
         public ReservationStatus Status { get; set; }
@@ -16,6 +17,10 @@ namespace FlightBookingSystemClassLibrary
         {
             canceled,
             confirmed
+        }
+        public Reservation()
+        {
+
         }
     }
 }

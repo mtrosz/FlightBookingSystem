@@ -15,7 +15,7 @@ namespace FlightBookingSystemClassLibrary
         private DateTime dateOfBirth;
         private bool isAdult;
         private MailAddress emailAdress;
-        private SecureString password;
+        private string password;
         public string Name { get; set; }
         public string Surename { get; set; }
         public string Country { get; set; }
@@ -28,11 +28,12 @@ namespace FlightBookingSystemClassLibrary
             }
             set
             {
-                    if (CheckPasswordStrenght(value).Equals("Strong") || CheckPasswordStrenght(value).Equals("VeryStrong"))
-                    {
-                        foreach (char c in value)
-                            password.AppendChar(c);
-                    }
+                password = value;
+                    //if (CheckPasswordStrenght(value).Equals("Strong") || CheckPasswordStrenght(value).Equals("VeryStrong"))
+                    //{
+                    //   foreach (char c in value)
+                    //        password.AppendChar(c);
+                    //}
                 //catch (Exception)
                 //{
                 //    MessageBox.Show("Password is too weak...");

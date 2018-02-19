@@ -1,6 +1,5 @@
 C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\bin\Debug\FlightBookingSystemClassLibrary.dll
 C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\bin\Debug\FlightBookingSystemClassLibrary.pdb
-C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.csprojResolveAssemblyReference.cache
 C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.dll
 C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.pdb
