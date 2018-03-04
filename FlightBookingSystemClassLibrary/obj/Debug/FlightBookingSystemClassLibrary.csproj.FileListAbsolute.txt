@@ -11,3 +11,7 @@ C:\Users\My\Documents\GitHub\FlightBookingSystem\FlightBookingSystemClassLibrary
 C:\Users\My\Documents\GitHub\FlightBookingSystem\FlightBookingSystemClassLibrary\bin\Debug\FlightBookingSystemDataset.mdf
 C:\Users\My\Documents\GitHub\FlightBookingSystem\FlightBookingSystemClassLibrary\bin\Debug\FlightBookingSystemDataset_log.ldf
 C:\Users\My\Documents\GitHub\FlightBookingSystem\FlightBookingSystemClassLibrary\bin\Debug\FlightBookingSystemClassLibrary.exe.config
+C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\bin\Debug\FlightBookingSystemDataset.mdf
+C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\bin\Debug\FlightBookingSystemDataset_log.ldf
+C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\bin\Debug\FlightBookingSystemClassLibrary.dll.config
