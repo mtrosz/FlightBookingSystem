@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace FlightBookingSystemClassLibrary
 {
-    public class Airport : City
+    class Airport : City
     {
         public int AirportID { get; set; }
         public string ICAO { get; set; }
@@ -21,7 +21,7 @@ namespace FlightBookingSystemClassLibrary
         {
             using (SqlConnection connect = new SqlConnection())
             {
-                connect.ConnectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\FlightBookingSystemDataset.mdf; Integrated Security = True; Connect Timeout = 60; Encrypt = False";
+                connect.ConnectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\FlightBookingSystemDataset.mdf;Integrated Security=True;Connect Timeout=60;Encrypt=False";
                 connect.Open();
                 Console.WriteLine("Connected...");
 

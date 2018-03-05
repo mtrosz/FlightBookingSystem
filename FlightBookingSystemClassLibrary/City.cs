@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace FlightBookingSystemClassLibrary
 {
-    public class City
+    class City
     {
         public int CityID { get; set; }
         public string CityName { get; set; }
