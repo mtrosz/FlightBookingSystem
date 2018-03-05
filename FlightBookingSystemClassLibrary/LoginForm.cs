@@ -36,7 +36,10 @@ namespace FlightBookingSystemClassLibrary
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Not implemented", "Error");
+            //MessageBox.Show("Not implemented", "Error");
+            this.Hide();
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
         }
 
         private void RegisterButton_Click(object sender, EventArgs e)

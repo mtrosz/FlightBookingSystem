@@ -11,3 +11,8 @@ C:\Users\My\Documents\GitHub\FlightBookingSystem\FlightBookingSystemClassLibrary
 C:\Users\My\Documents\GitHub\FlightBookingSystem\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.exe
 C:\Users\My\Documents\GitHub\FlightBookingSystem\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.RegisterForm.resources
 C:\Users\My\Documents\GitHub\FlightBookingSystem\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.LoginForm.resources
+C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.RegisterForm.resources
+C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.csproj.GenerateResource.Cache
+C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.MainForm.resources
+C:\Users\Michał Troszczyński\Documents\Visual Studio 2017\Projects\FlightBookingSystemClassLibrary\FlightBookingSystemClassLibrary\obj\Debug\FlightBookingSystemClassLibrary.Properties.Resources.resources
